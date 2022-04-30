@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen</title>
+    <script src="ExamenJavaScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="ExamenJavaScript.css">
+</head>
+<body>
+    <h1>Examen</h1>
+    <form action="">
+        <fieldset>
+            Nombre:<input type="text" id="nombre" required="required">
+            <br><br>
+            Apellidos:<input type="text" id="apellidos" required="required">
+            <br><br>
+        <fieldset>
+            <p>1. ¿Cuál no es un lenguaje de programación?</p>
+            <input  type="radio" name="pregunta1" value="javascript"/>JavaScript
+            <br>
+            <input  type="radio" name="pregunta1" value="kotlin"/>Kotlin
+            <br>
+            <input  type="radio" name="pregunta1" value="swift"/>Swift
+            <br>
+            <input  type="radio" name="pregunta1" value="html"/>HTML
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+            <p>2. ¿Con qué bucle necesitas un contador externo?</p>
+            <input  type="radio" name="pregunta2" value="while"/>While
+            <br>
+            <input  type="radio" name="pregunta2" value="dowhile"/>Do while
+            <br>
+            <input  type="radio" name="pregunta2" value="for"/>For
+            <br>
+            <input  type="radio" name="pregunta2" value="foreach"/>For each
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+            <p>3. El uso principal lenguaje que se usa en desarrollo web es JavaScript:</p>
+            <input  type="radio" name="pregunta3" value="verdadero"/>Verdadero
+            <br>
+            <input  type="radio" name="pregunta3" value="falso"/>Falso
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+            <p>4. ¿JavaScript es un lenguaje interpretado o compilado?</p>
+            <input  type="radio" name="pregunta4" value="interpretado"/>Interpretado
+            <br>
+            <input  type="radio" name="pregunta4" value="compilado"/>compilado
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+            <p>5. ¿La interpretacion de JavaScript puede depender del navegador en que se ejecute?</p>
+            <input  type="radio" name="pregunta5" value="si"/>Sí
+            <br>
+            <input  type="radio" name="pregunta5" value="no"/>No
+        </fieldset>
+    </form>
+    <br><br><br>
+    <button onclick="resultados()">Comprobar resultados</button>
+</body>
+</html>
