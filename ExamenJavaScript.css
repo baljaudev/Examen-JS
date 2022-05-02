@@ -9,11 +9,10 @@ input{
     background: none;
     color: #c6c6c6;
     font-size: 18px;
-    padding: 10px 5px 10px 50px;
-    display: grid;
-    width: 30%;
+    padding: 10px 5px 10px 10px;
+    width: 60%;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 
 button{
@@ -47,7 +46,7 @@ p{
 }
 
 form{
-    width: 50%;
+    width: 40%;
     margin: auto;
     background-color: beige;
 }
