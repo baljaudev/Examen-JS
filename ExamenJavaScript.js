@@ -9,11 +9,11 @@ function resultados() {
     let respuesta4 = "interpretado";
     let respuesta5 = "si";
 
-    let pregunta1 = returnChecked("pregunta1");
-    let pregunta2 = returnChecked("pregunta2");
-    let pregunta3 = returnChecked("pregunta3");
-    let pregunta4 = returnChecked("pregunta4");
-    let pregunta5 = returnChecked("pregunta5");
+    let pregunta1 = returnSeleccionada("pregunta1");
+    let pregunta2 = returnSeleccionada("pregunta2");
+    let pregunta3 = returnSeleccionada("pregunta3");
+    let pregunta4 = returnSeleccionada("pregunta4");
+    let pregunta5 = returnSeleccionada("pregunta5");
 
     comprobar(pregunta1,respuesta1);
     comprobar(pregunta2,respuesta2);
@@ -38,7 +38,7 @@ function resultados() {
 }
 
 
-function returnChecked(pregunta) {
+function returnSeleccionada(pregunta) {
     const radioButton = document.getElementsByName(pregunta);
     for(let i=0;i<radioButton.length;i++){
         if(radioButton[i].checked){
